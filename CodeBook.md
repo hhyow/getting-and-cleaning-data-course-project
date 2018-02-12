@@ -47,6 +47,7 @@ The **run_analysis.R** script performs the following transformations to clean up
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Variables:
+
 The following explains major variables used in the run_analysis.R script:
 * **one_data_set**: This variable stores a data set that is merged from the training and test data set.
 * **extracted_mean_and_std**: This variable stores a extracted data set of the mean and standard deviation for each measurement from the **one_data_set**.
